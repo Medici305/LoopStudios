@@ -7,6 +7,7 @@ import grid from "../images/desktop/image-grid.jpg";
 import nightArcade from "../images/desktop/image-night-arcade.jpg";
 import pocketBorealis from "../images/desktop/image-pocket-borealis.jpg";
 import soccerTeam from "../images/desktop/image-soccer-team.jpg";
+import { mobileView } from './MobilePics';
 
 const Creations = () => {
     let list = [
@@ -56,6 +57,17 @@ const Creations = () => {
                         <h2>{images.text}</h2>
                     </div>
                 ))}
+            </div>
+            <div className="grid-mobile">
+                {mobileView.map((images) => (
+                    <div className="grid-box-mobile">
+                        <img src={images.image} alt={images.text} />
+                        <h2>{images.text}</h2>
+                    </div>
+                ))}
+            </div>
+            <div className="see-button">
+                <button className="see-all">SEE ALL</button>
             </div>
         </div>
     );
