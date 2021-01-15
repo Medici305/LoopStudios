@@ -14,3 +14,12 @@ body {
     //font-family: 'Alata';
     font-family: 'Josefin Sans';
 }
+
+
+@media screen and (max-width: 421px) {
+    .App {
+        max-width: 100%;
+        border: 2px solid green;
+        overflow: hidden;
+    }
+}   

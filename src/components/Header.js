@@ -1,5 +1,7 @@
 import React from "react";
 import "../../node_modules/hover.css/css/hover.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
@@ -13,6 +15,7 @@ const Header = () => {
           <li className="hvr-underline-from-center">Products</li>
           <li className="hvr-underline-from-center">Support</li>
         </nav>
+        < FontAwesomeIcon size='2x' icon={faBars} />
       </div>
       <div className="banner ">
         <div className="box hvr-bounce-to-right">

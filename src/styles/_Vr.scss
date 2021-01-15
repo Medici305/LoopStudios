@@ -38,5 +38,16 @@
     }
 }
 
-@media screen and (max-width: 968px) {
+*::-webkit-scrollbar {
+    width: .5rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgb(130, 130, 130);
+    border-radius: 2rem;
+    border: transparent;
 }

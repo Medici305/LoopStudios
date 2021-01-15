@@ -23,6 +23,9 @@
                 padding: .75rem 0rem;
             }
         }
+        svg {
+            display: none;
+        }
     }
     .banner {
         padding: 1rem;
@@ -55,3 +58,27 @@
 .hvr-bounce-to-right:before {
     background: #8D46F4;
 }
+
+@media screen and (max-width: 421px) {
+    .header {
+    background-image: url('../images/mobile/image-hero.jpg');   
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+        width: 100%;
+        .nav-bar {
+            border: 3px solid #fff;
+            padding: 2rem 0rem;
+            h1 {
+                font-size: 2rem;
+            }
+            nav {
+                display: none;
+            }
+            svg {
+                display: flex;
+            }
+        }
+    }
+}   
