@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="App">
       <Header isActive={isActive} setIsActive={setIsActive} />
+      <Menu isActive={isActive} setIsActive={setIsActive} />
       <Main />
       <Footer />
-      <Menu isActive={isActive} setIsActive={setIsActive} />
     </div>
   );
 }
